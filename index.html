@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Uppervista" content="width=device-width, initial-scale=1" />
+    <title>Uppervista</title>
+    <meta name="Uppervista" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon3.ico">
+
+
+    <!-- Stlylesheet -->
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="asset/css/font-awesome/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="asset/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="asset/css/no-ui-slider/jquery.nouislider.css" type="text/css" />
+
+    <!-- Skin Color -->
+    <link rel="stylesheet" href="asset/css/colors/green.css" id="color-skins" />
+  </head>
+  <body>
+    <!-- Start Preloader -->
+    <div class="spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <style>
+      .spinner {
+        width: 70.4px;
+        height: 70.4px;
+        animation: spinner-y0fdc1 1.2s infinite ease;
+        transform-style: preserve-3d;
+      }
+
+      .spinner > div {
+        background-color: rgba(52, 206, 155, 0.2);
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        border: 3.5px solid #34ce9b;
+      }
+
+      .spinner div:nth-of-type(1) {
+        transform: translateZ(-35.2px) rotateY(180deg);
+      }
+
+      .spinner div:nth-of-type(2) {
+        transform: rotateY(-270deg) translateX(50%);
+        transform-origin: top right;
+      }
+
+      .spinner div:nth-of-type(3) {
+        transform: rotateY(270deg) translateX(-50%);
+        transform-origin: center left;
+      }
+
+      .spinner div:nth-of-type(4) {
+        transform: rotateX(90deg) translateY(-50%);
+        transform-origin: top center;
+      }
+
+      .spinner div:nth-of-type(5) {
+        transform: rotateX(-90deg) translateY(50%);
+        transform-origin: bottom center;
+      }
+
+      .spinner div:nth-of-type(6) {
+        transform: translateZ(35.2px);
+      }
+
+      @keyframes spinner-y0fdc1 {
+        0% {
+          transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+        }
+
+        50% {
+          transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+        }
+
+        100% {
+          transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+        }
+      }
+    </style>
+    <!-- End Preloader -->
+
+    <!-- Start Header -->
+    <header>
+      <nav class="navbar navbar-default navbar-alt" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand to-top" rel="home" href="# ">
+              <img src="asset/img/assets/logo annyar bestie.png" alt="Visual" class="logo-big" />
+              <img src="asset/img/assets/logo annyar bestie.png" alt="Visual" class="logo-small" />
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="to-top"> Home </a>
+              </li>
+              <li class="to-section">
+                <a href="#about"> About Us </a>
+              </li>
+              <li class="to-section">
+                <a href="#team"> featured product </a>
+              </li>
+              <li class="to-section">
+                <a href="#portfolio"> Katalog product </a>
+              </li>
+              <li class="to-section">
+                <a href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Home Revolution Slider Parallax Section -->
+    <section id="home-revolution-slider">
+      <div class="hero">
+        <div class="tp-banner-container">
+          <div class="tp-banner">
+            <ul>
+              <!-- SLIDE 1 -->
+              <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-thumb="img/backgrounds/bg1.jpg" data-delay="5000" data-saveperformance="on" data-title="We Are Visual">
+                <img src="asset/img/backgrounds/bg1.jpg" alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+
+                <!-- Home Heading -->
+                <div
+                  class="tp-caption sft"
+                  data-x="center"
+                  data-y="260"
+                  data-speed="1200"
+                  data-start="1100"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <h2 class="home-heading op-1">We Are Uppervista</h2>
+                </div>
+                <!-- Home Subheading -->
+                <div
+                  class="tp-caption home-subheading sft"
+                  data-x="center"
+                  data-y="360"
+                  data-speed="1200"
+                  data-start="1350"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <div class="op-1">Shoes Treatment & Apparel</div>
+                </div>
+                <!-- Home Button -->
+                <div
+                  class="tp-caption home-button sft fadeout"
+                  data-x="center"
+                  data-y="400"
+                  data-speed="1200"
+                  data-start="1550"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <div class="op-1">
+                    <a href="https://shopee.co.id/uppervista" class="btn btn-primary btn-scroll"> SHOPEE </a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- SLIDE 2 -->
+              <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-thumb="img/backgrounds/bg2.jpg" data-delay="5000" data-saveperformance="on" data-title="Digital Agency">
+                <img src="asset/img/backgrounds/bg2.jpg" alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+
+                <!-- Home Heading -->
+                <div
+                  class="tp-caption sft"
+                  data-x="center"
+                  data-y="260"
+                  data-speed="1200"
+                  data-start="1100"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <h2 class="home-heading op-2">lets's Clean Your shoes</h2>
+                </div>
+                <!-- Home Subheading -->
+                <div
+                  class="tp-caption home-subheading sft fadeout"
+                  data-x="center"
+                  data-y="360"
+                  data-speed="1200"
+                  data-start="1350"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <div class="op-2">Uppervista Shoes Treatment & Apparel</div>
+                </div>
+                <!-- Home Button -->
+                <div
+                  class="tp-caption home-button sft fadeout"
+                  data-x="center"
+                  data-y="400"
+                  data-speed="1200"
+                  data-start="1550"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <div class="op-2">
+                    <a href="https://www.tokopedia.com/uppervista/product" class="btn btn-primary btn-scroll"> TOKOPEDIA </a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- SLIDE 3 -->
+              <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-thumb="img/backgrounds/bg3.jpg" data-delay="5000" data-saveperformance="on" data-title="Creative Coders">
+                <img src="asset/img/backgrounds/bg3.jpg" alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+
+                <!-- Home Heading -->
+                <div
+                  class="tp-caption sft"
+                  data-x="center"
+                  data-y="260"
+                  data-speed="1200"
+                  data-start="1100"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <h2 class="home-heading op-3">Fortis Fortuna Adiuvat</h2>
+                </div>
+                <!-- Home Subheading -->
+                <div
+                  class="tp-caption home-subheading sft fadeout"
+                  data-x="center"
+                  data-y="360"
+                  data-speed="1200"
+                  data-start="1350"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <div class="op-3">Uppervista Shoes Treatment & Apparel</div>
+                </div>
+                <!-- Home Button -->
+                <div
+                  class="tp-caption home-button sft fadeout"
+                  data-x="center"
+                  data-y="400"
+                  data-speed="1200"
+                  data-start="1550"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="z-index: 4; max-width: auto; max-height: auto; white-space: normal"
+                >
+                  <div class="op-3">
+                    <a href="https://www.lazada.co.id/uppervista/?q=All-Products&from=wangpu&langFlag=id&pageTypeId=2" class="btn btn-primary btn-scroll"> LAZADA </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="tp-bannertimer"></div>
+          </div>
+          <div class="home-bottom">
+            <div class="container text-center">
+              <div class="move bounce">
+                <a href="#features" class="ion-ios-arrow-down btn-scroll"> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Revolution Slider Parallax Section -->
+
+    <div class="site-wrapper content">
+      <!-- Start About Section -->
+      <section id="about">
+        <div class="container">
+          <div class="col-md-12 text-center wow fadeInUp">
+            <h3 class="section-title">Tentang Kami</h3>
+            <p class="subheading">We are a small<span class="highlight"> shop</span>, trying to provide the best service</p>
+          </div>
+          <div class="row features-row wow fadeInUp">
+            <div class="col-md-4 col-sm-12 feature-column">
+              <div class="feature-icon">
+                <!--<i class="icon-eyeglasses size-2x highlight"></i>-->
+                <i class="icon-eyeglasses back-icon"></i>
+              </div>
+              <div class="feature-info">
+                <h4>Produk Terbaik</h4>
+                <p class="feature-description">Produk yang kami jual adalah produk terbaik dengan harga yang bersaing.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 feature-column">
+              <div class="feature-icon">
+                <!--<i class="icon-lock-open size-2x highlight"></i>-->
+                <i class="icon-lock-open back-icon"></i>
+              </div>
+              <div class="feature-info">
+                <h4>Garansi Layanan</h4>
+                <p class="feature-description">Jaminan garansi apabila terjadi kerusakan pada produk yang kami kirim, harus di sertakan video unboxing. </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 feature-column">
+              <div class="feature-icon">
+                <!--<i class="icon-energy size-2x highlight"></i>-->
+                <i class="icon-energy back-icon"></i>
+              </div>
+              <div class="feature-info">
+                <h4>Customer Service Support</h4>
+                <p class="feature-description">customer service yang responsif untuk menjawab semua pertanyaan yang berkaitan tentang sepatu dan merawat sepatu.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 text-left about-text">
+                <h3 class="wow fadeInUp">Sejarah Uppervista</h3>
+                <p class="wow fadeInUp">
+                  Berdiri di Salatiga, Uppervista hadir sejak 11 November 2021. Uppervista merupakan toko berbasis online yang menjual perawatan premium sepatu di Salatiga, dan kami telah membuka beberapa toko di beberapa marketplace ternama seperti : Shopee, Tokopedia, dan Lazada 
+                </p>
+                <p class="wow fadeInUp">
+                  <button type="button" class="btn btn-primary btn-md">Get in Touch</button>
+                </p>
+              </div>
+              <div class="col-md-6 wow fadeInUp about-text">
+                   <div class="video-container">
+                      <iframe src="https://www.youtube.com/embed/tH3jxm57utw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" allowfullscreen></iframe>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Features Section -->
+
+      <!-- Start Fun Facts Section -->
+      <section id="fun-facts" class="parallax-section-5">
+        <div class="container">
+          <div class="col-md-12 text-center white wow fadeInUp">
+            <h3 class="section-title">Some interesting facts about us</h3>
+            <p class="subheading">customer <span class="highlight">satisfaction</span> is our priority.</p>
+          </div>
+          <div class="counter-row row text-center wow fadeInUp">
+            <div class="col-md-4 col-sm-6 fact-container">
+              <div class="fact">
+                <span class="counter highlight">325</span>
+                <h4>positive response Customers</h4>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fact-container">
+              <div class="fact">
+                <span class="counter highlight">528</span>
+                <h4>Finished Orders</h4>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 fact-container">
+              <div class="fact">
+                <h2 class="counter highlight">1645</h2>
+                <h4>Product Sold Out</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Fun Facts Section -->
+
+      <!-- Start featured product Section -->
+      <section id="team">
+        <div class="container">
+          <div class="col-md-12 text-center wow fadeInUp">
+            <h3 class="section-title">Produk unggulan</h3>
+            <p class="subheading">most <span class="highlight">searched</span> products</p>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-3 team-member">
+              <div class="effect effects wow fadeInUp">
+                <div class="img">
+                  <img src="asset/img/team/poto1.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="social-icon">
+                        <a href="https://shopee.co.id/Uppervista-shoes-cleaner-pembersih-sepatu-putih-sabun-sepatu-250-ML-i.588045551.15202926487?sp_atk=5c41962c-57fa-4af3-a23c-6e3c3827b5a4&xptdk=5c41962c-57fa-4af3-a23c-6e3c3827b5a4" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                    </ul>
+                    <a class="close-overlay hidden"> x </a>
+                  </div>
+                </div>
+              </div>
+              <div class="member-info wow fadeInUp">
+                <h5 class="highlight">Shoe Cleaner</h5>
+                <p>Sabun khusus sepatu untuk merawat sepatu agar tidak cepat rusak.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 team-member">
+              <div class="effect effects wow fadeInUp">
+                <div class="img">
+                  <img src="asset/img/team/poto2.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <a href="https://shopee.co.id/Whitening-Pemutih-Sepatu-dan-Sour-neutralizer-100ml-i.588045551.18137695430?sp_atk=222eb058-56db-4692-8e35-b96d391f36cb&xptdk=222eb058-56db-4692-8e35-b96d391f36cb" class="">
+                        <i class="icon-link"></i>
+                    </ul>
+                    <a class="close-overlay hidden"> x </a>
+                  </div>
+                </div>
+              </div>
+              <div class="member-info wow fadeInUp">
+                <h5 class="highlight">Whitening & sour</h5>
+                <p>Membuat sepatu canvas yang menguning jadi putih kembali.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 team-member">
+              <div class="effect effects wow fadeInUp">
+                <div class="img">
+                  <img src="asset/img/team/poto3.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <a href="https://shopee.co.id/Parfum-sepatu-Anti-Bakteri-Pengharum-sepatu-dan-Penghilang-Bau-Sepatu-100ML-i.588045551.12053242135?sp_atk=b0326033-eb63-43cf-95e8-e9c6da875a34&xptdk=b0326033-eb63-43cf-95e8-e9c6da875a34" class="">
+                        <i class="icon-link"></i>
+                      </a>
+                    </ul>
+                    <a class="close-overlay hidden"> x </a>
+                  </div>
+                </div>
+              </div>
+              <div class="member-info wow fadeInUp">
+                <h5 class="highlight">Shoe Parfume</h5>
+                <p>Menghilangkan bau tidak sedap di sepatu ketika ingin digunakan.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 team-member">
+              <div class="effect effects wow fadeInUp">
+                <div class="img">
+                  <img src="asset/img/team/poto4.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <a href="https://shopee.co.id/Unyellowing-Sepatu-pemutih-midsole-sepatu-100ML-i.588045551.10285140490?sp_atk=f8718de5-c952-4d02-8c86-7f8578763be2&xptdk=f8718de5-c952-4d02-8c86-7f8578763be2" class="">
+                        <i class="icon-link"></i>
+                    </ul>
+                    <a class="close-overlay hidden"> x </a>
+                  </div>
+                </div>
+              </div>
+              <div class="member-info wow fadeInUp">
+                <h5 class="highlight">Unyellowing Removerr</h5>
+                <p>Memutihkan kembali sole sepatu yang menguning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- featured product Section -->
+
+      <!-- Start Quote Section -->
+      <section id="quote" class="parallax-section-6">
+        <div class="container">
+          <div class="row wow fadeInUp">
+            <div class="col-lg-12 wow fadeInUp" style="z-index: 3">
+              <div id="quote-slider" class="owl-carousel">
+                <div>
+                  <blockquote>
+                    <i class="icon-left ion-quote ion-2x highlight"></i>
+                    <span>
+                      Daki sikilmu rezekiku.
+                    </span>
+                    <i class="icon-right ion-quote ion-2x highlight"></i>
+                  </blockquote>
+                  <h4 class="quote-author highlight">Uppervista Team</h4>
+                </div>
+                <div>
+                  <blockquote>
+                    <i class="icon-left ion-quote ion-2x highlight"></i>
+                    <span>
+                      ora nyikat, rezeki ngadat.
+                    </span>
+                    <i class="icon-right ion-quote ion-2x highlight"></i>
+                  </blockquote>
+                  <h4 class="quote-author highlight">Uppervista Team</h4>
+                </div>
+                <div>
+                  <blockquote>
+                    <i class="icon-left ion-quote ion-2x highlight"></i>
+                    <span>
+                      ora ragat rasah nyacat, timbang tak sikat nganggo sikat kawat.
+                    </span>
+                    <i class="icon-right ion-quote ion-2x highlight"></i>
+                  </blockquote>
+                  <h4 class="quote-author highlight">Uppervista Team</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Quote Section -->
+
+      <!-- Start Portfolio Section -->
+      <section id="portfolio" style="position: relative">
+        <div class="separator"></div>
+        <div class="container-fluid">
+          <div class="col-md-12 text-center">
+            <h3 class="section-title wow fadeInUp">Katalog produk</h3>
+            <p class="subheading wow fadeInUp">solve your shoes problem <span class="highlight">in here</span>.</p>
+          </div>
+          <div id="filters-container-fullwidth" class="cbp-l-filters-alignCenter wow fadeInUp">
+            <div data-filter="portfolio" class="cbp-filter-item-active cbp-filter-item">
+              All
+              <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".identity" class="cbp-filter-item">
+              cairan
+              <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".web-design" class="cbp-filter-item">
+              sikat cuci
+              <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".graphic" class="cbp-filter-item">
+              acsesoris lainya
+              <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".logo" class="cbp-filter-item">
+              marchendise uppervista
+              <div class="cbp-filter-counter"></div>
+            </div>
+          </div>
+          <div id="grid-container-fullwidth" class="cbp-l-grid-fullScreen">
+            <ul>
+              <li class="cbp-item effect effects identity ">
+                <div class="img">
+                  <img src="asset/img/portfolio/po1.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/ANTI-NODA-BEKAS-LEM-KOREA-ATAU-LEM-G-PENGHILANG-LEM-KOREA-ATAU-LEM-G-i.588045551.14288260609?sp_atk=59d15133-f8b5-40e3-a364-ad54c4b88bd2&xptdk=59d15133-f8b5-40e3-a364-ad54c4b88bd2" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Glue Remover</li>
+                      <li class="cbp-l-caption-desc">Menghilangkan noda bekas lem</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po2.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Anti-Noda-Sepatu-Bola-100ml-i.588045551.15511966704?sp_atk=ab58d963-9831-48a4-88a5-96279579698f&xptdk=ab58d963-9831-48a4-88a5-96279579698f" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Anti Noda Sepatu Bola</li>
+                      <li class="cbp-l-caption-desc">Menghilagkan noda hitam akibat benturan sepatu bola lainnya.</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po3.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/ANTI-NODA-TALI-SEPATU-60ml-i.588045551.11375456226?sp_atk=e031e93a-8b29-4f56-82b1-c63b7cb26866&xptdk=e031e93a-8b29-4f56-82b1-c63b7cb26866" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Stain Shoelace Remover</li>
+                      <li class="cbp-l-caption-desc">Menghilangkan noda pada tali sepatu</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po4.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Uppervista-shoes-cleaner-pembersih-sepatu-putih-sabun-sepatu-100-ML-i.588045551.21437692212?sp_atk=b56d733e-bbd7-43fe-a2a2-b26022f64596&xptdk=b56d733e-bbd7-43fe-a2a2-b26022f64596" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Shoe Cleaner 100ml</li>
+                      <li class="cbp-l-caption-desc">Sabun khusus untuk mencuci sepatu</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects graphic">
+                <div class="img">
+                  <img src="asset/img/portfolio/po5.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Handuk-Lap-Microfiber-Towl-abu-abu-Mikrofiber-Lap-Microfiber-40-X-40-cm-i.588045551.14445895657?sp_atk=522b1d04-97aa-4f21-a60c-aa9f92d19afc&xptdk=522b1d04-97aa-4f21-a60c-aa9f92d19afc" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Lap Microfiber abu abu 40x40</li>
+                      <li class="cbp-l-caption-desc">Berguna untuk lap sepatu yang telah selesai di sikat</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects graphic">
+                <div class="img">
+                  <img src="asset/img/portfolio/po6.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Handuk-Microfiber-Lap-microfiber-Towl-Warna-Biru-30x30cm-i.588045551.14211404224?sp_atk=e9217bcc-b777-4eef-a0e3-a7d6fc3771d0&xptdk=e9217bcc-b777-4eef-a0e3-a7d6fc3771d0" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Lap Microfiber biru 30x30</li>
+                      <li class="cbp-l-caption-desc">Berguna untuk lap sepatu yang telah selesai di sikat</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects graphic">
+                <div class="img">
+                  <img src="asset/img/portfolio/po7.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Mangkuk-Stainless-Tempat-Air-i.588045551.12859463289?sp_atk=a8d624bc-17c9-4170-b4ea-ef2cafd109d3&xptdk=a8d624bc-17c9-4170-b4ea-ef2cafd109d3" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Mangkuk</li>
+                      <li class="cbp-l-caption-desc">Wadah untuk menampung air untuk mencuci sepatu</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects graphic">
+                <div class="img">
+                  <img src="asset/img/portfolio/po8.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Penghapus-suede-beludru-i.588045551.11386341661?sp_atk=bab98173-1ee7-44ad-920b-b5683aadd683&xptdk=bab98173-1ee7-44ad-920b-b5683aadd683" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Penghapus Suede</li>
+                      <li class="cbp-l-caption-desc">Berfungsi untuk menghilangkan noda atau debu yang berada di sepatu berbahan suede</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po10.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/SHOEBRIGHT-PENGHILANG-NODA-DI-SEPATU-100-ml-i.588045551.14816520998?sp_atk=9d24e20b-8e75-4c5d-9043-d7a4d96cf4a7&xptdk=9d24e20b-8e75-4c5d-9043-d7a4d96cf4a7" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Shoebright 100ml</li>
+                      <li class="cbp-l-caption-desc">Berfungsi untuk mencerahkan sepatu putih berbahan canvas</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po16.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Shoes-cleaner-Pembersih-sepatu-Sabun-sepatu-Shoe-cleaner-Cleaner-sepatu-1-Liter-i.588045551.19721775411?sp_atk=65ffbe74-7696-4354-91d9-8d5d530d0909&xptdk=65ffbe74-7696-4354-91d9-8d5d530d0909" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Shoe Clenaer 1 Liter</li>
+                      <li class="cbp-l-caption-desc">Sabun khusus untuk mencuci sepatu</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po17.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Uppervista-shoes-cleaner-pembersih-sepatu-putih-sabun-sepatu-250-ML-i.588045551.15202926487?sp_atk=5c41962c-57fa-4af3-a23c-6e3c3827b5a4&xptdk=5c41962c-57fa-4af3-a23c-6e3c3827b5a4" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Shoe Clenaer 250ml</li>
+                      <li class="cbp-l-caption-desc">Sabun khusus untuk mencuci sepatu</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po18.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Unyellowing-Sepatu-pemutih-midsole-sepatu-100ML-i.588045551.10285140490?sp_atk=f8718de5-c952-4d02-8c86-7f8578763be2&xptdk=f8718de5-c952-4d02-8c86-7f8578763be2" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Unyellowing Remover 100ml</li>
+                      <li class="cbp-l-caption-desc">Berfungsi untuk memutihkan kembali sole sepatu yang menguning</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po19.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Whitening-Pemutih-Sepatu-dan-Sour-neutralizer-100ml-i.588045551.18137695430?sp_atk=222eb058-56db-4692-8e35-b96d391f36cb&xptdk=222eb058-56db-4692-8e35-b96d391f36cb" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Whitening & Sour Netralizer 100ml</li>
+                      <li class="cbp-l-caption-desc">Berfungai memutihkan sepatu putih berbahan canvas yang menguning</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects identity">
+                <div class="img">
+                  <img src="asset/img/portfolio/po20.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Parfum-sepatu-Anti-Bakteri-Pengharum-sepatu-dan-Penghilang-Bau-Sepatu-100ML-i.588045551.12053242135?sp_atk=b0326033-eb63-43cf-95e8-e9c6da875a34&xptdk=b0326033-eb63-43cf-95e8-e9c6da875a34" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Shoe Parfume 100ml</li>
+                      <li class="cbp-l-caption-desc">Parfume khusus sepatu yang aromanya strong, agar dapat menghilangkan bau sepatu ketika ingin di pakai</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects graphic">
+                <div class="img">
+                  <img src="asset/img/portfolio/po9.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/kantong-plastik-zipper-bag-uppervista-transparan-matte-tebal-i.588045551.14203416458?sp_atk=bb1c88fe-3a8d-404b-897f-b97e009185fb&xptdk=bb1c88fe-3a8d-404b-897f-b97e009185fb" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Plastic Ziplock</li>
+                      <li class="cbp-l-caption-desc">Plastik untuk membungkus sepatu agar tidak terkena debu</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects graphic">
+                <div class="img">
+                  <img src="asset/img/portfolio/po11.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/SHOES-BOX-sepatu-lipat-transparan-tebal-i.588045551.13956554326?sp_atk=37abb5a7-e19a-49b7-bb9c-11aaa5374205" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Shoes Box</li>
+                      <li class="cbp-l-caption-desc">Tempat penyimpanan sepatu portable yang mudah di bawa berpergian</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects web-design">
+                <div class="img">
+                  <img src="asset/img/portfolio/po12.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Sikat-Sepatu-Detailing-Sikat-besi-Wire-brush-i.588045551.14516360358?sp_atk=c44fc4d1-ed70-42ae-84fe-33fe785d0329&xptdk=c44fc4d1-ed70-42ae-84fe-33fe785d0329" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Paket Sikat Detailing</li>
+                      <li class="cbp-l-caption-desc">Berfungsi untuk membersihkan sela sela sepatu,agar lebih bersih maksimal</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects logo">
+                <div class="img">
+                  <img src="asset/img/portfolio/po21.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Botol minum Uppervista</li>
+                      <li class="cbp-l-caption-desc">prototype</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects logo">
+                <div class="img">
+                  <img src="asset/img/portfolio/po22.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">T-shirt Uppervista</li>
+                      <li class="cbp-l-caption-desc">prototype</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects web-design">
+                <div class="img">
+                  <img src="asset/img/portfolio/po13.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Sikat-Sepatu-Detailing-Sikat-besi-Wire-brush-i.588045551.14516360358?sp_atk=c44fc4d1-ed70-42ae-84fe-33fe785d0329&xptdk=c44fc4d1-ed70-42ae-84fe-33fe785d0329" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Sikat Insole 2 sisi</li>
+                      <li class="cbp-l-caption-desc">Sikat yang dikhususkan untuk mempermudah membersihkan bagian dalam sepatu</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects web-design">
+                <div class="img">
+                  <img src="asset/img/portfolio/po14.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Sikat-Sepatu-Detailing-Sikat-besi-Wire-brush-i.588045551.14516360358?sp_atk=c44fc4d1-ed70-42ae-84fe-33fe785d0329&xptdk=c44fc4d1-ed70-42ae-84fe-33fe785d0329" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Sikat Suede</li>
+                      <li class="cbp-l-caption-desc">Sikat yang berfungsi untuk mnghidupkan kembali bulu suede di sepatu ketika sesudah atau sebelum dicuci</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="cbp-item effect effects web-design">
+                <div class="img">
+                  <img src="asset/img/portfolio/po15.jpg" class="img-responsive" alt="" />
+                  <div class="overlay">
+                    <ul class="expand">
+                      <li class="cbp-l-icon">
+                        <a href="https://shopee.co.id/Sikat-Sepatu-Detailing-Sikat-besi-Wire-brush-i.588045551.14516360358?sp_atk=c44fc4d1-ed70-42ae-84fe-33fe785d0329&xptdk=c44fc4d1-ed70-42ae-84fe-33fe785d0329" class="">
+                          <i class="icon-link"></i>
+                        </a>
+                      </li>
+                      <li class="cbp-l-caption-title">Paket Sikat Brush</li>
+                      <li class="cbp-l-caption-desc">Berfungsi untuk membersihkan sela sela sepatu,agar lebih bersih maksimal</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- Start Get Connected -->
+      <section id="services" class="parallax-section-9">
+        <div class="container">
+          <div class="col-md-12 text-center">
+            <h3 class="section-title wow fadeInUp">Special Partnership</h3>
+            <p class="subheading wow fadeInUp">they already <span class="highlight">believe</span> in us</p>
+          </div>
+          <div class="clients">
+            <div id="client-slider" class="owl-carousel">
+              <div class="item">
+                <img src="asset/img/clients/patner 22.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 11.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 22.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 11.png  " alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 22.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 11.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 22.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 11.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 22.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 11.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="asset/img/clients/patner 22.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- Start Contact Form Section -->
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3 class="section-title wow fadeInUp">Contact us</h3>
+              <p class="subheading wow fadeInUp">Jangan biarkan sepatamu bernoda</p>
+            </div>
+            <div class="col-md-6 wow fadeInUp">
+              <div id="message"></div>
+              <!-- Contact Form will be functional only on your server. Upload to your server when testing. -->
+              <form method="post" action="php/contact-form.php.htm" name="contactform" id="contactform">
+                <fieldset>
+                  <input name="name" type="text" id="name" placeholder="Name" />
+                  <input name="email" type="text" id="email" placeholder="Email" />
+                  <input name="subject" type="text" id="subject" placeholder="Subject" />
+                </fieldset>
+                <fieldset>
+                  <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Message"></textarea>
+                </fieldset>
+                <input type="submit" class="submit" id="submit" value="Send Message" />
+              </form>
+            </div>
+            <div class="col-md-6 wow fadeInRight">
+              <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.2127372688435!2d110.5091127566993!3d-7.370598036535679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a794604061183%3A0x362b0e3f918d9691!2sKost%20Arofah!5e0!3m2!1sen!2sid!4v1638862765767!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Form Section -->
+
+      <!-- Start Footer 1 -->
+      <footer id="footer">
+        <!-- End Footer Widgets -->
+
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h3 class="section-title wow fadeInUp">UPPERVISTA</h3>
+                <p class="wow fadeInUp">
+                  All Rights Reserved. Copyright © 2021
+                  <a href="https://www.instagram.com/upper.vista/" target="_blank">Uppervista</a>
+                </p>
+                <ul class="social-icons subheading">
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-instagram-outline"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Copyright -->
+      </footer>
+      <!-- End Footer 1 -->
+
+      <!-- Start Back To Top -->
+      <a id="back-to-top">
+        <i class="icon ion-chevron-up"></i>
+      </a>
+      <!-- End Back To Top -->
+    </div>
+    <!-- End Site Wrapper -->
+    <!-- jQuery -->
+    <script type="text/javascript" src="asset/js/plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/moderniz.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/smoothscroll.min.js"></script>
+    <script type="text/javascript" src="asset/js/no-ui-slider/jquery.nouislider.all.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/revslider.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/waypoints.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/parallax.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/easign1.3.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/cubeportfolio.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/owlcarousel.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/tweetie.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="asset/js/plugins/gmap3.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/wow.min.js"></script>
+    <script type="text/javascript" src="asset/js/plugins/counterup.min.js"></script>
+    <script type="text/javascript" src="asset/js/scripts.js"></script>
+  </body>
+</html>
